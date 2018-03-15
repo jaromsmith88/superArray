@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+#Clion temp files
+CMakeCache.txt
+CmakeFiles/
+Makefile
+cmake_install.cmake
+mytest
