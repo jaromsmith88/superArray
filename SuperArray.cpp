@@ -78,3 +78,35 @@ int &SuperArray::operator[](const int index)
     return arr[realIndex];
 
 }
+
+int *SuperArray::getArr() const {
+    return arr;
+}
+
+void SuperArray::setArr(int *arr) {
+    SuperArray::arr = arr;
+}
+
+int SuperArray::getLowIndex() const {
+    return lowIndex;
+}
+
+void SuperArray::setLowIndex(int lowIndex) {
+    SuperArray::lowIndex = lowIndex;
+}
+
+int SuperArray::getHighIndex() const {
+    return highIndex;
+}
+
+void SuperArray::setHighIndex(int highIndex) {
+    SuperArray::highIndex = highIndex;
+}
+
+int SuperArray::getCapacity() const {
+    return capacity;
+}
+
+void SuperArray::setCapacity(int capacity) {
+    SuperArray::capacity = capacity;
+}
